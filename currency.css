@@ -1,0 +1,80 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(45, 235, 162);
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .heading {
+    font-family: 'Pacifico';
+    margin: 20px 0;
+    font-size: 2em;
+  }
+  
+  hr {
+    width: 50%;
+    margin: 20px auto;
+    border: 1px solid black;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #aee25c;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin: 0 10px;
+  }
+  
+  .button-group {
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  #finalAmount {
+    margin-top: 20px;
+    font-family: 'Lobster', cursive;
+  }
+  
+  .finalValue {
+    color: green;
+    font-family: 'Amiri', serif;
+  }
+  
